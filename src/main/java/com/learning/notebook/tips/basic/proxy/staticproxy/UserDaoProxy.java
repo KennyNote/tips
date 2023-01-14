@@ -1,6 +1,6 @@
 package com.learning.notebook.tips.basic.proxy.staticproxy;
 
-import com.learning.notebook.basic.proxy.UserDao;
+import com.learning.notebook.tips.basic.proxy.UserDao;
 
 /**
  * 1.可以做到在不修改目标对象的功能前提下,对目标功能扩展。

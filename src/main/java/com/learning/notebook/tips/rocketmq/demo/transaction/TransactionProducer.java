@@ -1,10 +1,10 @@
 package com.learning.notebook.tips.rocketmq.demo.transaction;
 
 import com.alibaba.fastjson.JSON;
-import com.learning.notebook.rocketmq.entity.TransferRecord;
+import com.learning.notebook.tips.rocketmq.entity.TransferRecord;
 import java.nio.charset.StandardCharsets;
 import java.util.UUID;
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.producer.SendResult;

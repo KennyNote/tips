@@ -1,12 +1,12 @@
 package com.learning.notebook.tips.mvc.interceptor;
 
-import com.learning.notebook.common.annotation.RequestAuth;
-import com.learning.notebook.mvc.UserContext;
-import com.learning.notebook.mvc.UserInfoDTO;
+import com.learning.notebook.tips.common.annotation.RequestAuth;
+import com.learning.notebook.tips.mvc.UserContext;
+import com.learning.notebook.tips.mvc.UserInfoDTO;
 import java.lang.reflect.Method;
 import java.util.Optional;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.StringUtils;
 import org.springframework.web.method.HandlerMethod;

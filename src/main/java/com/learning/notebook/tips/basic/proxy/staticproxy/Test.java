@@ -1,8 +1,8 @@
 package com.learning.notebook.tips.basic.proxy.staticproxy;
 
 
-import com.learning.notebook.basic.proxy.UserDao;
-import com.learning.notebook.basic.proxy.UserDaoImpl;
+import com.learning.notebook.tips.basic.proxy.UserDao;
+import com.learning.notebook.tips.basic.proxy.UserDaoImpl;
 
 public class Test {
 

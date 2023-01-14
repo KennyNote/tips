@@ -1,7 +1,7 @@
 package com.learning.notebook.tips.mvc.controller;
 
-import com.learning.notebook.common.annotation.RequestAuth;
-import com.learning.notebook.common.annotation.RequestLog;
+import com.learning.notebook.tips.common.annotation.RequestAuth;
+import com.learning.notebook.tips.common.annotation.RequestLog;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import lombok.extern.slf4j.Slf4j;

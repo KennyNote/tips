@@ -15,7 +15,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 @Configuration
-@MapperScan(basePackages = {"com.learning.notebook.db.mapper"}, sqlSessionFactoryRef = "mySQLSqlSessionFactory")
+@MapperScan(basePackages = {"com.learning.notebook.tips.db.mapper"}, sqlSessionFactoryRef = "mySQLSqlSessionFactory")
 public class MySQLDataSourceConfig {
 
     private MySQLDataSourceProperties mySQLDataSourceProperties;
@@ -42,7 +42,7 @@ public class MySQLDataSourceConfig {
         throws Exception {
         SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
         factoryBean.setDataSource(datasource);
-        factoryBean.setTypeAliasesPackage("com.learning.notebook.db.transaction.entity");
+        factoryBean.setTypeAliasesPackage("com.learning.notebook.tips.db.transaction.entity");
         factoryBean.setMapperLocations(
             new PathMatchingResourcePatternResolver().getResources("classpath:mapper/*.xml"));
 //        factoryBean.setConfigLocation(

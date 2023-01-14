@@ -1,6 +1,6 @@
 package com.learning.notebook.tips.basic.juc.threadpool;
 
-import com.learning.notebook.basic.exception.DIYException.BusinessException;
+import com.learning.notebook.tips.basic.exception.DIYException.BusinessException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;

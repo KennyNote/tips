@@ -17,8 +17,8 @@
 package com.learning.notebook.tips.rocketmq.demo.transaction;
 
 import com.alibaba.fastjson.JSON;
-import com.learning.notebook.rocketmq.entity.TransferRecord;
-import javax.annotation.Resource;
+import com.learning.notebook.tips.rocketmq.entity.TransferRecord;
+import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.producer.LocalTransactionState;
 import org.apache.rocketmq.client.producer.TransactionListener;

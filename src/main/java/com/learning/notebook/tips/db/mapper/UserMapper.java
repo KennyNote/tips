@@ -1,6 +1,6 @@
 package com.learning.notebook.tips.db.mapper;
 
-import com.learning.notebook.rocketmq.entity.User;
+import com.learning.notebook.tips.rocketmq.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;

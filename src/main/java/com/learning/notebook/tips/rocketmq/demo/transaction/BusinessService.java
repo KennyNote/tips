@@ -1,9 +1,9 @@
 package com.learning.notebook.tips.rocketmq.demo.transaction;
 
-import com.learning.notebook.db.mapper.TransferRecordMapper;
-import com.learning.notebook.db.mapper.UserMapper;
-import com.learning.notebook.rocketmq.entity.TransferRecord;
-import javax.annotation.Resource;
+import com.learning.notebook.tips.db.mapper.TransferRecordMapper;
+import com.learning.notebook.tips.db.mapper.UserMapper;
+import com.learning.notebook.tips.rocketmq.entity.TransferRecord;
+import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

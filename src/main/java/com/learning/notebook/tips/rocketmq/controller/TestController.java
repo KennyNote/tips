@@ -1,7 +1,7 @@
 package com.learning.notebook.tips.rocketmq.controller;
 
-import com.learning.notebook.rocketmq.demo.transaction.TransactionProducer;
-import javax.annotation.Resource;
+import com.learning.notebook.tips.rocketmq.demo.transaction.TransactionProducer;
+import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
